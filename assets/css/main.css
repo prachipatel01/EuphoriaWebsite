@@ -727,6 +727,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
+			.phone {
+				margin-bottom: 50px;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1216,6 +1220,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+
+			.phone {
+				margin-bottom: 50px;
+			}
 
 			.box video {
 				width: calc(100% - 50px);
