@@ -208,23 +208,8 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			.box video {
-				width: calc(100% - 100px);
-			}
-
-
 			.container {
 				width: calc(100% - 100px);
-			}
-
-			#videos video {
-				width: calc(100% - 100px);
-				padding-top: 10px;
-				padding-bottom: 10px;
-			}
-
-			#videos {
-				text-align: center;
 			}
 
 		}
@@ -232,7 +217,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.box video {
-				width: calc(100% - 100px);
+				width: calc(100% - 50px);
+				border-radius: 15px;
 			}
 
 			.container {
@@ -240,7 +226,7 @@ input, select, textarea {
 			}
 			
 			#videos video {
-				width: calc(100% - 100px);
+				width: calc(100% - 50px);
 				padding-top: 10px;
 				padding-bottom: 10px;
 			}
@@ -986,20 +972,6 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			.box video {
-				width: calc(100% - 100px);
-			}
-
-			#videos video {
-				width: calc(100% - 100px);
-				padding-top: 10px;
-				padding-bottom: 10px;
-			}
-
-			#videos {
-				text-align: center;
-			}
-
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1246,11 +1218,12 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.box video {
-				width: calc(100% - 100px);
+				width: calc(100% - 50px);
+				border-radius: 15px;
 			}
 
 			#videos video {
-				width: calc(100% - 100px);
+				width: calc(100% - 50px);
 				padding-top: 10px;
 				padding-bottom: 10px;
 			}
@@ -1907,20 +1880,6 @@ input, select, textarea {
 
 		@media screen and (min-width: 981px) {
 
-			.box video {
-				width: calc(100% - 100px);
-			}
-
-			#videos video {
-				width: calc(100% - 100px);
-				padding-top: 10px;
-				padding-bottom: 10px;
-			}
-
-			#videos {
-				text-align: center;
-			}
-
 			.feature-list > .row > :nth-child(-n + 2) > section {
 				border-top: 0;
 				padding-top: 0;
@@ -2351,6 +2310,10 @@ input, select, textarea {
 		padding-bottom: 10px;
 	}
 
+	.box video {
+		border-radius: 15px;
+	}
+
 	#videos {
 		text-align: center;
 	}
@@ -2594,20 +2557,6 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
-		.box video {
-			width: calc(100% - 100px);
-		}
-
-		#videos video {
-			width: calc(100% - 100px);
-			padding-top: 10px;
-			padding-bottom: 10px;
-		}
-
-		#videos {
-			text-align: center;
-		}
-
 		/* Section/Article */
 
 			header br {
@@ -2672,20 +2621,6 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) and (min-width: 737px) {
 
-			.box video {
-				width: calc(100% - 100px);
-			}
-
-			#videos video {
-				width: calc(100% - 100px);
-				padding-top: 10px;
-				padding-bottom: 10px;
-			}
-
-			#videos {
-				text-align: center;
-			}
-
 				#footer .feature-list > .row > :nth-child(2) > section {
 					border-top: 0;
 					padding-top: 0;
@@ -2694,20 +2629,6 @@ input, select, textarea {
 		}
 
 	@media screen and (max-width: 980px) {
-
-		.box video {
-			width: calc(100% - 100px);
-		}
-
-		#videos video {
-			width: calc(100% - 100px);
-			padding-top: 10px;
-			padding-bottom: 10px;
-		}
-
-		#videos {
-			text-align: center;
-		}
 
 		/* Nav */
 
@@ -2893,11 +2814,12 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		.box video {
-			width: calc(100% - 100px);
+			width: calc(100% - 50px);
+			border-radius: 15px;
 		}
 
 		#videos video {
-			width: calc(100% - 100px);
+			width: calc(100% - 50px);
 			padding-top: 10px;
 			padding-bottom: 10px;
 		}
